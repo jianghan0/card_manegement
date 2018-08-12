@@ -34,6 +34,7 @@ gem 'slim-rails'
 gem 'html2slim'
 gem 'bootstrap-sass'
 gem 'jquery-rails'
+gem "font-awesome-rails"
 
 group :production do
   gem 'pg', '0.20.0'
