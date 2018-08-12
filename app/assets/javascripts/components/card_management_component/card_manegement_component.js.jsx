@@ -5,7 +5,10 @@ class CardsManegementComponent extends React.Component {
     const inputStates = {
       name: '',
       company: '',
+      address: '',
+      department: '',
       title: '',
+
     };
 
     this.state = {
@@ -29,8 +32,14 @@ class CardsManegementComponent extends React.Component {
       case 'company':
         inputStates.company = e.target.value;
         break;
+      case 'address':
+        inputStates.address = e.target.value;
+        break;
+      case 'department':
+        inputStates.department = e.target.value;
+        break;
       case 'title':
-        inputStates.company = e.target.value;
+        inputStates.title = e.target.value;
         break;
     }
 
