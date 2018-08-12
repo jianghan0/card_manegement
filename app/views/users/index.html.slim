@@ -1,4 +1,4 @@
-div.userInfo
+.userInfo
   h2 登録情報
   p
     | 名前:
@@ -7,20 +7,22 @@ div.userInfo
     | email:
     = current_user.email
 
-div.cards
+.cards
   h2 名刺一覧
   table.table.table-bordered.table-hover
     tr
       th 会社
+      th 所在地
       th 部署
       th 肩書
-      th
-    tr
-      - current_user.cards.each do |card|
+      th 作成日
+    - current_user.cards.each do |card|
+      tr
         td = card.company.name
+        td = card.company.address
         td = card.department
         td = card.title
-        td = button_to '編集', '#', class: 'btn btn-default'
+        td = card.created_at.strftime("%Y/%m/%d %H:%M")
 
-  div.cards__userAction
-    = button_to '新規登録', '#', class: 'btn btn-primary'
+  .cards__userAction
+    = button_to '新規登録', new_card_path, method: :get, class: 'btn btn-primary'
