@@ -32,7 +32,7 @@ class User < ApplicationRecord
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :trackable, :validatable
 
-  has_many :cars
+  has_many :cards
   has_many :companies, through: :cards
 
   validates :name, presence: true, length: { maximum: 16 }
