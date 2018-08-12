@@ -21,13 +21,20 @@ gem 'jbuilder', '~> 2.5'
 # gem 'bcrypt', '~> 3.1.7'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+
+# ユーザー管理
 gem 'devise'
+
+# バックエンド
 gem 'kaminari'
+gem 'rails-i18n'
+
+# フロントエンド
+gem 'react-rails'
 gem 'slim-rails'
 gem 'html2slim'
 gem 'bootstrap-sass'
 gem 'jquery-rails'
-gem 'rails-i18n'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
