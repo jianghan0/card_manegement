@@ -1,0 +1,196 @@
+CardsController	/Users/jianghan/source/card_manegement/app/controllers/cards_controller.rb	/^class CardsController < ApplicationController$/;"	class	line:1
+new	/Users/jianghan/source/card_manegement/app/controllers/cards_controller.rb	/^  def new$/;"	method	line:2	class:CardsController
+create	/Users/jianghan/source/card_manegement/app/controllers/cards_controller.rb	/^  def create$/;"	method	line:5	class:CardsController
+update	/Users/jianghan/source/card_manegement/app/controllers/cards_controller.rb	/^  def update$/;"	method	line:24	class:CardsController
+destroy	/Users/jianghan/source/card_manegement/app/controllers/cards_controller.rb	/^  def destroy$/;"	method	line:27	class:CardsController
+ja	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^ja:$/;"	function	line:1
+activerecord	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^  activerecord:$/;"	function	line:2
+attributes	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^    attributes:$/;"	function	line:3
+user	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^      user:$/;"	function	line:4
+confirmation_sent_at	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^        confirmation_sent_at: "パスワード確認送信時刻"$/;"	function	line:5
+confirmation_token	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^        confirmation_token: "パスワード確認用トークン"$/;"	function	line:6
+confirmed_at	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^        confirmed_at: "パスワード確認時刻"$/;"	function	line:7
+created_at	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^        created_at: "作成日"$/;"	function	line:8
+current_password	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^        current_password: "現在のパスワード"$/;"	function	line:9
+current_sign_in_at	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^        current_sign_in_at: "現在のログイン時刻"$/;"	function	line:10
+current_sign_in_ip	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^        current_sign_in_ip: "現在のログインIPアドレス"$/;"	function	line:11
+email	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^        email: Eメール$/;"	function	line:12
+name	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^        name: 名前$/;"	function	line:13
+encrypted_password	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^        encrypted_password: "暗号化パスワード"$/;"	function	line:14
+failed_attempts	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^        failed_attempts: "失敗したログイン試行回数"$/;"	function	line:15
+last_sign_in_at	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^        last_sign_in_at: "最終ログイン時刻"$/;"	function	line:16
+last_sign_in_ip	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^        last_sign_in_ip: "最終ログインIPアドレス"$/;"	function	line:17
+locked_at	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^        locked_at: "ロック時刻"$/;"	function	line:18
+password	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^        password: "パスワード"$/;"	function	line:19
+password_confirmation	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^        password_confirmation: "パスワード（確認用）"$/;"	function	line:20
+remember_created_at	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^        remember_created_at: "ログイン記憶時刻"$/;"	function	line:21
+remember_me	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^        remember_me: "ログインを記憶する"$/;"	function	line:22
+reset_password_sent_at	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^        reset_password_sent_at: "パスワードリセット送信時刻"$/;"	function	line:23
+reset_password_token	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^        reset_password_token: "パスワードリセット用トークン"$/;"	function	line:24
+sign_in_count	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^        sign_in_count: "ログイン回数"$/;"	function	line:25
+unconfirmed_email	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^        unconfirmed_email: "未確認Eメール"$/;"	function	line:26
+unlock_token	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^        unlock_token: "ロック解除用トークン"$/;"	function	line:27
+updated_at	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^        updated_at: "更新日"$/;"	function	line:28
+models	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^    models:$/;"	function	line:29
+user	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^      user: "ユーザ"$/;"	function	line:30
+devise	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^  devise:$/;"	function	line:31
+confirmations	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^    confirmations:$/;"	function	line:32
+confirmed	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^      confirmed: "アカウントを登録しました。"$/;"	function	line:33
+new	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^      new:$/;"	function	line:34
+resend_confirmation_instructions	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^        resend_confirmation_instructions: "アカウント確認メール再送"$/;"	function	line:35
+send_instructions	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^      send_instructions: "アカウントの有効化について数分以内にメールでご連絡します。"$/;"	function	line:36
+send_paranoid_instructions	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^      send_paranoid_instructions: "メールアドレスが登録済みの場合、本人確認用のメールが数分以内に送信されます。"$/;"	function	line:37
+failure	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^    failure:$/;"	function	line:38
+already_authenticated	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^      already_authenticated: "すでにログインしています。"$/;"	function	line:39
+inactive	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^      inactive: "アカウントが有効化されていません。メールに記載された手順にしたがって、アカウントを有効化してください。"$/;"	function	line:40
+invalid	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^      invalid: "%{authentication_keys}またはパスワードが違います。"$/;"	function	line:41
+last_attempt	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^      last_attempt: "もう一回誤るとアカウントがロックされます。"$/;"	function	line:42
+locked	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^      locked: "アカウントは凍結されています。"$/;"	function	line:43
+not_found_in_database	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^      not_found_in_database: "%{authentication_keys}またはパスワードが違います。"$/;"	function	line:44
+timeout	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^      timeout: "セッションがタイムアウトしました。もう一度ログインしてください。"$/;"	function	line:45
+unauthenticated	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^      unauthenticated: "アカウント登録もしくはログインしてください。"$/;"	function	line:46
+unconfirmed	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^      unconfirmed: "メールアドレスの本人確認が必要です。"$/;"	function	line:47
+mailer	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^    mailer:$/;"	function	line:48
+confirmation_instructions	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^      confirmation_instructions:$/;"	function	line:49
+action	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^        action: "メールアドレスの確認"$/;"	function	line:50
+greeting	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^        greeting: "%{recipient}様"$/;"	function	line:51
+instruction	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^        instruction: "以下のリンクをクリックし、メールアドレスの確認手続を完了させてください。"$/;"	function	line:52
+subject	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^        subject: "メールアドレス確認メール"$/;"	function	line:53
+email_changed	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^      email_changed:$/;"	function	line:54
+greeting	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^        greeting:$/;"	function	line:55
+message	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^        message:$/;"	function	line:56
+subject	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^        subject:$/;"	function	line:57
+password_change	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^      password_change:$/;"	function	line:58
+greeting	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^        greeting: "%{recipient}様"$/;"	function	line:59
+message	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^        message: "パスワードが再設定されたことを通知します。"$/;"	function	line:60
+subject	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^        subject: "パスワードの変更について"$/;"	function	line:61
+reset_password_instructions	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^      reset_password_instructions:$/;"	function	line:62
+action	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^        action: "パスワード変更"$/;"	function	line:63
+greeting	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^        greeting: "%{recipient}様"$/;"	function	line:64
+instruction	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^        instruction: "パスワード再設定の依頼を受けたため、メールを送信しています。下のリンクからパスワードの再設定ができます。"$/;"	function	line:65
+instruction_2	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^        instruction_2: "パスワード再設定の依頼をしていない場合、このメールを無視してください。"$/;"	function	line:66
+instruction_3	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^        instruction_3: "パスワードの再設定は、上のリンクから新しいパスワードを登録するまで完了しません。"$/;"	function	line:67
+subject	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^        subject: "パスワードの再設定について"$/;"	function	line:68
+unlock_instructions	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^      unlock_instructions:$/;"	function	line:69
+action	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^        action: "アカウントのロック解除"$/;"	function	line:70
+greeting	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^        greeting: "%{recipient}様"$/;"	function	line:71
+instruction	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^        instruction: "アカウントのロックを解除するには下のリンクをクリックしてください。"$/;"	function	line:72
+message	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^        message: "ログイン失敗が繰り返されたため、アカウントはロックされています。"$/;"	function	line:73
+subject	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^        subject: "アカウントの凍結解除について"$/;"	function	line:74
+omniauth_callbacks	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^    omniauth_callbacks:$/;"	function	line:75
+failure	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^      failure: "%{kind} アカウントによる認証に失敗しました。理由：（%{reason}）"$/;"	function	line:76
+success	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^      success: "%{kind} アカウントによる認証に成功しました。"$/;"	function	line:77
+passwords	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^    passwords:$/;"	function	line:78
+edit	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^      edit:$/;"	function	line:79
+change_my_password	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^        change_my_password: "パスワードを変更する"$/;"	function	line:80
+change_your_password	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^        change_your_password: "パスワードを変更"$/;"	function	line:81
+confirm_new_password	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^        confirm_new_password: "確認用新しいパスワード"$/;"	function	line:82
+new_password	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^        new_password: "新しいパスワード"$/;"	function	line:83
+new	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^      new:$/;"	function	line:84
+forgot_your_password	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^        forgot_your_password: "パスワードを忘れましたか?"$/;"	function	line:85
+send_me_reset_password_instructions	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^        send_me_reset_password_instructions: "パスワードの再設定方法を送信する"$/;"	function	line:86
+no_token	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^      no_token: "このページにはアクセスできません。パスワード再設定メールのリンクからアクセスされた場合には、URL をご確認ください。"$/;"	function	line:87
+send_instructions	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^      send_instructions: "パスワードの再設定について数分以内にメールでご連絡いたします。"$/;"	function	line:88
+send_paranoid_instructions	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^      send_paranoid_instructions: "メールアドレスが登録済みの場合、パスワード再設定用のメールが数分以内に送信されます。"$/;"	function	line:89
+updated	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^      updated: "パスワードが正しく変更されました。"$/;"	function	line:90
+updated_not_active	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^      updated_not_active: "パスワードが正しく変更されました。"$/;"	function	line:91
+registrations	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^    registrations:$/;"	function	line:92
+destroyed	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^      destroyed: "アカウントを削除しました。またのご利用をお待ちしております。"$/;"	function	line:93
+edit	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^      edit:$/;"	function	line:94
+are_you_sure	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^        are_you_sure: "本当によろしいですか?"$/;"	function	line:95
+cancel_my_account	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^        cancel_my_account: "アカウント削除"$/;"	function	line:96
+currently_waiting_confirmation_for_email	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^        currently_waiting_confirmation_for_email: "%{email} の確認待ち"$/;"	function	line:97
+leave_blank_if_you_don_t_want_to_change_it	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^        leave_blank_if_you_don_t_want_to_change_it: "空欄のままなら変更しません"$/;"	function	line:98
+title	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^        title: "%{resource}編集"$/;"	function	line:99
+unhappy	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^        unhappy: "気に入りません"$/;"	function	line:100
+update	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^        update: "更新"$/;"	function	line:101
+we_need_your_current_password_to_confirm_your_changes	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^        we_need_your_current_password_to_confirm_your_changes: "変更を反映するには現在のパスワードを入力してください"$/;"	function	line:102
+new	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^      new:$/;"	function	line:103
+sign_up	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^        sign_up: "アカウント登録"$/;"	function	line:104
+signed_up	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^      signed_up: "アカウント登録が完了しました。"$/;"	function	line:105
+signed_up_but_inactive	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^      signed_up_but_inactive: "ログインするためには、アカウントを有効化してください。"$/;"	function	line:106
+signed_up_but_locked	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^      signed_up_but_locked: "アカウントが凍結されているためログインできません。"$/;"	function	line:107
+signed_up_but_unconfirmed	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^      signed_up_but_unconfirmed: "本人確認用のメールを送信しました。メール内のリンクからアカウントを有効化させてください。"$/;"	function	line:108
+update_needs_confirmation	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^      update_needs_confirmation: "アカウント情報を変更しました。変更されたメールアドレスの本人確認のため、本人確認用メールより確認処理をおこなってください。"$/;"	function	line:109
+updated	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^      updated: "アカウント情報を変更しました。"$/;"	function	line:110
+sessions	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^    sessions:$/;"	function	line:111
+already_signed_out	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^      already_signed_out: "既にログアウト済みです。"$/;"	function	line:112
+new	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^      new:$/;"	function	line:113
+sign_in	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^        sign_in: "ログイン"$/;"	function	line:114
+signed_in	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^      signed_in: "ログインしました。"$/;"	function	line:115
+signed_out	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^      signed_out: "ログアウトしました。"$/;"	function	line:116
+shared	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^    shared:$/;"	function	line:117
+links	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^      links:$/;"	function	line:118
+back	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^        back: "戻る"$/;"	function	line:119
+didn_t_receive_confirmation_instructions	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^        didn_t_receive_confirmation_instructions: "アカウント確認のメールを受け取っていませんか?"$/;"	function	line:120
+didn_t_receive_unlock_instructions	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^        didn_t_receive_unlock_instructions: "アカウントの凍結解除方法のメールを受け取っていませんか?"$/;"	function	line:121
+forgot_your_password	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^        forgot_your_password: "パスワードを忘れましたか?"$/;"	function	line:122
+sign_in	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^        sign_in: "ログイン"$/;"	function	line:123
+sign_in_with_provider	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^        sign_in_with_provider: "%{provider}でログイン"$/;"	function	line:124
+sign_up	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^        sign_up: "アカウント登録"$/;"	function	line:125
+minimum_password_length	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^      minimum_password_length: "（%{count}字以上）"$/;"	function	line:126
+unlocks	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^    unlocks:$/;"	function	line:127
+new	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^      new:$/;"	function	line:128
+resend_unlock_instructions	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^        resend_unlock_instructions: "アカウントの凍結解除方法を再送する"$/;"	function	line:129
+send_instructions	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^      send_instructions: "アカウントの凍結解除方法を数分以内にメールでご連絡します。"$/;"	function	line:130
+send_paranoid_instructions	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^      send_paranoid_instructions: "アカウントが見つかった場合、アカウントの凍結解除方法を数分以内にメールでご連絡します。"$/;"	function	line:131
+unlocked	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^      unlocked: "アカウントを凍結解除しました。"$/;"	function	line:132
+errors	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^  errors:$/;"	function	line:133
+messages	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^    messages:$/;"	function	line:134
+already_confirmed	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^      already_confirmed: "は既に登録済みです。ログインしてください。"$/;"	function	line:135
+confirmation_period_expired	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^      confirmation_period_expired: "の期限が切れました。%{period} までに確認する必要があります。 新しくリクエストしてください。"$/;"	function	line:136
+expired	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^      expired: "の有効期限が切れました。新しくリクエストしてください。"$/;"	function	line:137
+not_found	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^      not_found: "は見つかりませんでした。"$/;"	function	line:138
+not_locked	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^      not_locked: "は凍結されていません。"$/;"	function	line:139
+not_saved	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^      not_saved:$/;"	function	line:140
+one	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^        one: "新規登録できませんでした。"$/;"	function	line:141
+other	/Users/jianghan/source/card_manegement/config/locales/devise.ja.yml	/^        other: "新規登録できませんでした。"$/;"	function	line:142
+ApplicationController	/Users/jianghan/source/card_manegement/app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	class	line:1
+configure_permitted_parameters	/Users/jianghan/source/card_manegement/app/controllers/application_controller.rb	/^  def configure_permitted_parameters$/;"	method	line:8	class:ApplicationController
+ApiController	/Users/jianghan/source/card_manegement/app/controllers/api_controller.rb	/^class ApiController < ActionController::API$/;"	class	line:1
+ErrorsController	/Users/jianghan/source/card_manegement/app/controllers/errors_controller.rb	/^class ErrorsController < ApplicationController$/;"	class	line:1
+forbidden	/Users/jianghan/source/card_manegement/app/controllers/errors_controller.rb	/^  def forbidden$/;"	method	line:2	class:ErrorsController
+not_found	/Users/jianghan/source/card_manegement/app/controllers/errors_controller.rb	/^  def not_found$/;"	method	line:5	class:ErrorsController
+name	/Users/jianghan/source/card_manegement/package.json	/^  "name": "card_manegment",$/;"	function	line:2
+dependencies	/Users/jianghan/source/card_manegement/package.json	/^  "dependencies": {$/;"	function	line:3
+react	/Users/jianghan/source/card_manegement/package.json	/^    "react": "^0.13.3"$/;"	function	line:4
+license	/Users/jianghan/source/card_manegement/package.json	/^  "license": "MIT",$/;"	function	line:6
+engines	/Users/jianghan/source/card_manegement/package.json	/^  "engines": {$/;"	function	line:7
+node	/Users/jianghan/source/card_manegement/package.json	/^    "node": ">= 0.10"$/;"	function	line:8
+devDependencies	/Users/jianghan/source/card_manegement/package.json	/^  "devDependencies": {$/;"	function	line:10
+babelify	/Users/jianghan/source/card_manegement/package.json	/^    "babelify": "^6.3.0",$/;"	function	line:11
+browserify	/Users/jianghan/source/card_manegement/package.json	/^    "browserify": "~> 10.2.4",$/;"	function	line:12
+browserify-incremental	/Users/jianghan/source/card_manegement/package.json	/^    "browserify-incremental": "^3.0.1",$/;"	function	line:13
+coffee-script	/Users/jianghan/source/card_manegement/package.json	/^    "coffee-script": "^1.10.0",$/;"	function	line:14
+glob	/Users/jianghan/source/card_manegement/package.json	/^    "glob": "^5.0.14",$/;"	function	line:15
+gulp	/Users/jianghan/source/card_manegement/package.json	/^    "gulp": "^3.9.0",$/;"	function	line:16
+gulp-babel	/Users/jianghan/source/card_manegement/package.json	/^    "gulp-babel": "^5.2.1",$/;"	function	line:17
+reactify	/Users/jianghan/source/card_manegement/package.json	/^    "reactify": "^1.1.1",$/;"	function	line:18
+vinyl-source-stream	/Users/jianghan/source/card_manegement/package.json	/^    "vinyl-source-stream": "^1.1.0"$/;"	function	line:19
+scripts	/Users/jianghan/source/card_manegement/package.json	/^  "scripts": {$/;"	function	line:21
+start	/Users/jianghan/source/card_manegement/package.json	/^    "start": "gulp watch & rails s"$/;"	function	line:22
+e	/Users/jianghan/source/card_manegement/app/assets/javascripts/components/bundle.js	/^(function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){$/;"	function	line:1
+i	/Users/jianghan/source/card_manegement/app/assets/javascripts/components/bundle.js	/^(function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){$/;"	variable	line:1
+defineProperties	/Users/jianghan/source/card_manegement/app/assets/javascripts/components/bundle.js	/^var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();$/;"	function	line:49
+get	/Users/jianghan/source/card_manegement/app/assets/javascripts/components/bundle.js	/^var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; desc = parent = undefined; continue _function; } } else if ("value" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };$/;"	function	line:51
+_classCallCheck	/Users/jianghan/source/card_manegement/app/assets/javascripts/components/bundle.js	/^function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }$/;"	function	line:53
+_inherits	/Users/jianghan/source/card_manegement/app/assets/javascripts/components/bundle.js	/^function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }$/;"	function	line:55
+Cards	/Users/jianghan/source/card_manegement/app/assets/javascripts/components/bundle.js	/^  function Cards() {$/;"	function	line:60
+render	/Users/jianghan/source/card_manegement/app/assets/javascripts/components/bundle.js	/^    value: function render() {$/;"	function	line:68
+.cards	/Users/jianghan/source/card_manegement/app/assets/stylesheets/cards.scss	/^.cards {$/;"	function	line:1
+&__userAction	/Users/jianghan/source/card_manegement/app/assets/stylesheets/cards.scss	/^  &__userAction {$/;"	function	line:4
+&__search	/Users/jianghan/source/card_manegement/app/assets/stylesheets/cards.scss	/^  &__search {$/;"	function	line:8
+.form-group	/Users/jianghan/source/card_manegement/app/assets/stylesheets/cards.scss	/^    .form-group {$/;"	function	line:11
+input	/Users/jianghan/source/card_manegement/app/assets/stylesheets/cards.scss	/^    input {$/;"	function	line:15
+Admin	/Users/jianghan/source/card_manegement/app/controllers/admin/cards_controller.rb	/^class Admin::CardsController < ApplicationController$/;"	class	line:1
+index	/Users/jianghan/source/card_manegement/app/controllers/admin/cards_controller.rb	/^  def index$/;"	method	line:2	class:Admin
+Api	/Users/jianghan/source/card_manegement/app/controllers/api/v1/cards_controller.rb	/^class Api::V1::CardsController < ApiController$/;"	class	line:1
+index	/Users/jianghan/source/card_manegement/app/controllers/api/v1/cards_controller.rb	/^  def index$/;"	method	line:2	class:Api
+.authentication	/Users/jianghan/source/card_manegement/app/assets/stylesheets/authentication.scss	/^.authentication {$/;"	function	line:1
+確認方法	/Users/jianghan/source/card_manegement/README.md	/^## 確認方法$/;"	function	line:1
+本番	/Users/jianghan/source/card_manegement/README.md	/^### 本番$/;"	function	line:2
+使用技術	/Users/jianghan/source/card_manegement/README.md	/^## 使用技術$/;"	function	line:9
+DB設計	/Users/jianghan/source/card_manegement/README.md	/^## DB設計$/;"	function	line:16
+実装方針	/Users/jianghan/source/card_manegement/README.md	/^## 実装方針$/;"	function	line:19
+User	/Users/jianghan/source/card_manegement/app/models/user.rb	/^class User < ApplicationRecord$/;"	class	line:29
+is_admin?	/Users/jianghan/source/card_manegement/app/models/user.rb	/^  def is_admin?$/;"	method	line:38	class:User
