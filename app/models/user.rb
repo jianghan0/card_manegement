@@ -35,5 +35,9 @@ class User < ApplicationRecord
   has_many :cards
   has_many :companies, through: :cards
 
+  def is_admin?
+    admin
+  end
+
   validates :name, presence: true, length: { maximum: 16 }
 end
