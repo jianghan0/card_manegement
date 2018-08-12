@@ -16,7 +16,7 @@ ActiveRecord::Schema.define(version: 20180812045437) do
     t.integer "user_id"
     t.integer "company_id"
     t.string "department"
-    t.string "title"
+    t.string "title", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["company_id"], name: "index_cards_on_company_id"
@@ -24,15 +24,15 @@ ActiveRecord::Schema.define(version: 20180812045437) do
   end
 
   create_table "companies", force: :cascade do |t|
-    t.string "name"
-    t.string "address"
+    t.string "name", limit: 32, null: false
+    t.string "address", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
 
   create_table "users", force: :cascade do |t|
-    t.string "name"
-    t.boolean "admin"
+    t.string "name", limit: 16, null: false
+    t.boolean "admin", default: false, null: false
     t.string "email", default: "", null: false
     t.string "encrypted_password", default: "", null: false
     t.string "reset_password_token"

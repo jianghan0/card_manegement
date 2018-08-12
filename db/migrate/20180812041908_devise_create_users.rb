@@ -3,8 +3,8 @@
 class DeviseCreateUsers < ActiveRecord::Migration[5.1]
   def change
     create_table :users do |t|
-      t.string :name
-      t.boolean :admin
+      t.string :name, null: false, limit: 16
+      t.boolean :admin, null: false, default: false
 
       ## Database authenticatable
       t.string :email,              null: false, default: ""
