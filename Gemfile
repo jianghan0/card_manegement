@@ -25,6 +25,8 @@ gem 'devise'
 gem 'kaminari'
 gem 'slim-rails'
 gem 'html2slim'
+gem 'bootstrap-sass'
+gem 'jquery-rails'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
