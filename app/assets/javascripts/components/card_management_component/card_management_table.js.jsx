@@ -23,7 +23,7 @@ class CardsManegementTable extends React.Component {
                   <td>{ card.address }</td>
                   <td>{ card.department }</td>
                   <td>{ card.title }</td>
-                  <td>{ card.title }</td>
+                  <td>{ card.created_at }</td>
                 </tr>
               )
             })

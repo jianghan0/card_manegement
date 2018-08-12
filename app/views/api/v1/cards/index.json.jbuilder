@@ -4,4 +4,5 @@ json.array! @cards do |card|
   json.address    card.company.address
   json.department card.department
   json.title      card.title
+  json.created_at card.created_at.strftime("%Y/%m/%d %H:%M")
 end
