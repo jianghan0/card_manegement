@@ -2,24 +2,30 @@ class CardsManegementComponent extends React.Component {
   constructor() {
     super();
 
-    const inputStates = {
-      name: '',
-      company: '',
-      address: '',
-      department: '',
-      title: '',
-
-    };
-
     this.state = {
-      inputStates: inputStates,
+      inputStates: {},
+      isLoading: true,
       cards: []
     };
 
     this.onChangeText = this.onChangeText.bind(this);
     this.updateCards = this.updateCards.bind(this);
+  }
 
-    this.updateCards(inputStates);
+  componentDidMount() {
+    this.updateCards(this.state.inputStates);
+  }
+
+  updateCards(inputStates) {
+    thisObj = this;
+
+    $.get('/api/v1/cards/index', inputStates, (data) => {
+      thisObj.setState({
+        inputStates: inputStates,
+        isLoading: false,
+        cards: data
+      });
+    })
   }
 
   onChangeText(e) {
@@ -46,23 +52,18 @@ class CardsManegementComponent extends React.Component {
     this.updateCards(inputStates);
   }
 
-  updateCards(inputStates) {
-    thisObj = this;
-    console.log(inputStates)
-
-    $.get('/api/v1/cards/index', inputStates, (data) => {
-      thisObj.setState({
-        inputStates: inputStates,
-        cards: data
-      });
-    })
-  }
-
   render() {
     return (
       <div>
         <CardsManegementSearchArea inputStates={this.state.inputStates} onChangeText={this.onChangeText}/>
-        <CardsManegementTable cards={this.state.cards}/>
+        <LoaderComponent isLoading={this.state.isLoading}/>
+        {
+          (() => {
+            if (this.state.isLoading === false) {
+              return (<CardsManegementTable cards={this.state.cards}/>)
+            }
+          }())
+        }
       </div>
     )
   }
