@@ -1,0 +1,23 @@
+.cards
+  = form_tag cards_path, method: :post do
+    .form-group
+      = hidden_field_tag :user_id, current_user.id
+
+    .form-group
+      = label_tag :company_name, '会社名'
+      = text_field_tag :company_name, '', class: 'form-control'
+
+    .form-group
+      = label_tag :company_address, '会社所在地'
+      = text_field_tag :company_address, '', class: 'form-control'
+
+    .form-group
+      = label_tag :department, '所属部署'
+      = text_field_tag :department, '', class: 'form-control'
+
+    .form-group
+      = label_tag :titile, '肩書き'
+      = text_field_tag :title, '', class: 'form-control'
+
+    .cards__userAction
+      = submit_tag '作成', class: 'btn btn-primary'
