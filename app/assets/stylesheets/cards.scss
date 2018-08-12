@@ -4,4 +4,16 @@
   &__userAction {
     float: right
   };
+
+  &__search {
+    margin: 40px 0px;
+    
+    .form-group {
+      margin: 0px 12px 6px 0px;
+    }
+
+    input {
+      margin-left: 6px;
+    }
+  }
 }
