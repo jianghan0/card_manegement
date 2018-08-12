@@ -6,4 +6,6 @@ class User < ApplicationRecord
 
   has_many :cars
   has_many :companies, through: :cards
+
+  validates :name, presence: true, length: { maximum: 16 }
 end
