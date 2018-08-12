@@ -5,7 +5,7 @@
 言語：ruby、javascript  
 フレームワーク：Ruby on Rails、React  
 PaaS：Heroku  
-DB：SQLite（開発環境）、PostgreSQL（本番環境）
+DB：SQLite（開発環境）、PostgreSQL（本番環境）  
 テンプレートエンジン：slim
 
 ## DB設計
