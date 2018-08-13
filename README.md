@@ -21,7 +21,7 @@ https://card-manegement.herokuapp.com/
 
 ## 使用技術
 言語： ruby、javascript(ES6)  
-フレームワーク： Ruby on Rails、React
+フレームワーク： Ruby on Rails、React  
 PaaS： Heroku  
 DB： SQLite（開発環境）、PostgreSQL（本番環境）  
 テンプレートエンジン： slim  
